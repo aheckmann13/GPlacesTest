@@ -1,0 +1,221 @@
+/* html {
+  font-size:1.0em;
+  position: relative;
+  min-height: 100%;
+  min-width:100%;
+}
+
+body {
+  margin-bottom: 70px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px; 
+  background:#30435a;
+  border-top:1px solid #fff;
+  color:#fff;
+  font-size:.8em;
+} */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+  background:#333;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 70px; /* Vertically center the text there */
+  background-color: #14314f;
+  color:#fff;
+  text-align: center;
+  border-top:2px solid #fff;
+  font-size:.8em;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+.headerBg{
+  background:#14314f;
+  border-bottom:2px solid #fff;
+}
+
+
+#login{
+
+float:right;
+margin-right:20px;
+margin-top:25px;
+}
+
+#loggedIn{
+
+  float:right;
+  margin-right:20px;
+  margin-top:28px;
+  display:none;
+  }
+
+
+
+#logo{
+padding:20px 20px;
+}
+
+#initialSearchDIV{
+text-align: center;
+display:inline-block;
+padding-top:6%;
+/* margin-top:20vh; */
+/* position:relative;
+top:20vh; */
+}
+
+
+.initialSearchGroup{
+  margin:0px auto
+}
+
+
+#initialSearchDIV h2{
+padding-bottom:20px;
+color:#fff;
+text-shadow:1px 1px 2px #000;
+}
+
+#initialSearchDIV h5{
+  padding-bottom:30px;
+  color:#fff;
+  }
+
+#bodyContent{
+  height: 83vh;
+  position: relative;
+    z-index: 1;
+  /* background:url('../images/initialSearchPage.jpg'); */
+  background:#333;
+  text-align:center;
+}
+
+#bodyContent:before {
+  text-align:center;
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:url('../images/initialSearchPage2.jpg') no-repeat center center;
+  background-size:cover;
+  opacity: .35;}
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+#logo{
+text-align:center;
+padding:20px 10px;
+
+}
+
+#login, #loggedIn{
+  width:100%;
+  border-radius:0;
+  margin:0;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+  }
+
+.header{
+  text-align: center;
+}
+
+#bodyContent{
+  height: 81.2vh;}
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+
+.initialSearchGroup{
+  width:80%;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+.initialSearchGroup{
+  width:70%;
+}
+
+}
+
+@media (min-width: 576px){
+  #bodyContent{
+  height: 85.3vh;}
+}
+
+#initialSearchDIV h2{
+  font-size:2.5em;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .initialSearchGroup{
+  width:75%;
+}
+}
+
+@media (min-width: 1200px) { 
+  
+.initialSearchGroup{
+  width:80%;
+}
+  
+}
+
